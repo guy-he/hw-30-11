@@ -1,0 +1,22 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("hello world");
+
+
+Scanner s = new Scanner(System.in);
+        System.out.println("type your name : ");
+        String my_name = s.nextLine();
+  long my_savings = 0;
+  my_savings += 10000;
+  my_savings *= 2;
+  my_savings += 30000;
+  my_savings ++;
+  my_savings /= 2;
+        System.out.println(my_name + " have savings of: "+ my_savings);
+        // rest of targil- 125000
+        // changed in debugger to bill gates successfully 
